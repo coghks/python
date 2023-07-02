@@ -80,3 +80,5 @@ from scipy.special import softmax
 proba = softmax(decision, axis=1)  #앞서 구한 decision배열을 softmax() 함수에 전달 후 softmax()의 axis 매개변수는 소프트맥스를 꼐산할 축을 지정 여기에서는 axis=1로 지정하여 각 행, 즉 각 샘플에 대해 소프트맥스를 계산
 #만약 axis 매개변수를 지정하지 않으면 배열 전체에 대해 소프트맥스를 계산함
 #print(np.round(proba, decimals=3)) 출력 결과를 앞서 구한 proba 배열과 비교해보면 결과가 정확히 일치한다.
+어려웡
+
