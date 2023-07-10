@@ -84,3 +84,4 @@ plt.scatter(train_scaled[indexes, 0], train_scaled[indexes, 1], marker='D')
 plt.xlabel('length')
 plt.ylabel('weight')
 plt.show()
+#예비군가기싫다 2일차..
