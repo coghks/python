@@ -49,7 +49,7 @@ plt.scatter(test_input[:,0],test_input[:,1])
 plt.xlabel("length")
 plt.ylabel("weight")
 plt.show()
-
+#예비군가기싫다..1일차
 kn=kn.fit(train_input, train_target)
 kn.score(test_input, test_target)   #1.0이 나옴 100%의 정확도
 
