@@ -11,7 +11,7 @@ import numpy as np #데이터가 많은 경우엔 리스트로 작업하는 것�
 #np.column_stack(([1,2,3],[4,5,6])) column_stack() 함수는 전달받은 리스트를 일렬로 세운 다음 차례대로 나란히 연결함(튜플로 전달)
 #array([[1,4],[2,5],[3,6]])
 fish_data = np.column_stack((fish_length, fish_weight))
-#print(fish_data[:5]) 잘만들어졌는지 확인
+#print(fish_data[:5]) 잘만들어졌는지 확인';
 fish_target = np.concatenate((np.ones(35), np.zeros(14)))  #np.concatenate() 첫번째 차원을 따라 배열을 연결 np.ones(), np.zeros()는 각각 1과 0의 배열을 만듬
 #print(fish_target) 만들어진 배열 확인 
 
