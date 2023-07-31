@@ -10,7 +10,7 @@ fish_weight = [242.0, 290.0, 340.0, 363.0, 430.0, 450.0, 500.0, 390.0, 450.0, 50
 fish_data=[[l,w] for l,w in zip(fish_length,fish_weight)] #2차원리스트로 묶음
 fish_target= [1]*35+ [0]*14
 
-from sklearn.neighbors import KNeighborsClassifier #사이킷런 클래스 임포트하고 모델객체생성
+from sklearn.neighbors import KNeighborsClassifier #사이킷런 클래스 임포트하고 모델객체생성//
 kn=KNeighborsClassifier()
 
 train_input = fish_data[:35] #훈련 세트로 입력값 중 0부터 34번째 인덱스까지 사용
